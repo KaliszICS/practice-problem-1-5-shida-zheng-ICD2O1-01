@@ -10,6 +10,7 @@ def q2():
  b = a + "4"
  c = float(b) + 2
  print(c)
+ 
 def q3(): 
   #Write Assignment code here
  a = input("Enter a radius:")
