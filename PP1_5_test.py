@@ -10,7 +10,7 @@ def test_q1_1(capsys):
   except:
     sys.exit()
 
-  input_values = [5]
+  input_values = ["5"]
   
   def mock_input(s):
     print(s, end='')
@@ -29,7 +29,7 @@ def test_q1_2(capsys):
   except:
     sys.exit()
 
-  input_values = [15]
+  input_values = ["15"]
   
   def mock_input(s):
     print(s, end='')
@@ -48,7 +48,7 @@ def test_q2_1(capsys):
   except:
     sys.exit()
 
-  input_values = [123.2]
+  input_values = ["123.2"]
   
   def mock_input(s):
     print(s, end='')
@@ -67,7 +67,7 @@ def test_q2_2(capsys):
   except:
     sys.exit()
 
-  input_values = [1]
+  input_values = ["1"]
   
   def mock_input(s):
     print(s, end='')
@@ -86,7 +86,7 @@ def test_q3_1(capsys):
   except:
     sys.exit()
 
-  input_values = [15.2]
+  input_values = ["15.2"]
   
   def mock_input(s):
     print(s, end='')
@@ -105,7 +105,7 @@ def test_q3_2(capsys):
   except:
     sys.exit()
 
-  input_values = [5]
+  input_values = ["5"]
   
   def mock_input(s):
     print(s, end='')
@@ -124,7 +124,7 @@ def test_q4_1(capsys):
   except:
     sys.exit()
 
-  input_values = [32.2]
+  input_values = ["32.2"]
   
   def mock_input(s):
     print(s, end='')
@@ -143,7 +143,7 @@ def test_q4_2(capsys):
   except:
     sys.exit()
 
-  input_values = [0.05]
+  input_values = ["0.05"]
   
   def mock_input(s):
     print(s, end='')
@@ -162,7 +162,7 @@ def test_q5_1(capsys):
   except:
     sys.exit()
 
-  input_values = [10]
+  input_values = ["10"]
   
   def mock_input(s):
     print(s, end='')
@@ -181,7 +181,7 @@ def test_q5_2(capsys):
   except:
     sys.exit()
 
-  input_values = [-5]
+  input_values = ["-5"]
   
   def mock_input(s):
     print(s, end='')
