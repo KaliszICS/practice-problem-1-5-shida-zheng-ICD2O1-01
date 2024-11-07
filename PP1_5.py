@@ -6,9 +6,9 @@ def q1():
   print(num)
 def q2():
   #Write Assignment code here
-  num_str = input("Input a number: ")
-  num_with_4 = float(num_str + "4") + 2
-  print(num_with_4)
+  num1 = input("Input a number: ")
+  num2 = float(num1 + "4") + 2
+  print(num2)
 def q3():
   #Write Assignment code here
   radius = float(input("Input a radius: "))
