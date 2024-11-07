@@ -13,7 +13,7 @@ def q3():
   #Write Assignment code here
   radius = float(input("Input a radius: "))
   area = 3.14 * radius ** 2
-  print(f"The area of the circle is: {area}")
+  print(area)
 def q4():
   #Write Assignment code here
   num_float = float(input("Input a number: "))
